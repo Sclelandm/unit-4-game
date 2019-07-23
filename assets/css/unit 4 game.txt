@@ -1,0 +1,38 @@
+<!DOCUTYPE html>
+<html lang="en'>
+
+<head>
+    <meta charst="utf-8>
+    <title>Crystals</title>
+</head>
+
+<body>
+$(document).ready(function(){
+    var random=Math.floor(Math.random()*121+19)
+    $('randomNumber').text(random);
+
+    var crystal1 = Math.floor(Math.random()*11+1)
+    var crystal2 = Math.floor(Math.random()*11+1)
+    var crystal3 = Math.floor(Math.random()*11+1)
+    var crystal4 = Math.floor(Math.random()*11+1)
+
+    var total = 0;
+    var wins = 0;
+    var looses = 0;
+
+$('numberWins').text(wins);
+$('numberLooses').text(looses);    
+
+function (restart){
+    Random =Math .floor(Math.random)* 121+19);
+    $('randomNumber').text(Random);
+    crystal1=Math.floor(Math.random()*11+1);
+  crystal2=Math.floor(Math.random()*11+1);
+   crystal3=Math.floor(Math.random()*11+1);
+   crystal4=Math.floor(Math.random()*11+1);
+
+    
+    $('finalTotal').text(total);
+}
+$('one').on(click,function)
+ 
